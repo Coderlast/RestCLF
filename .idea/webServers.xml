@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ec5b7f23-b228-41d2-994e-b1530668a07b" name="aaa" url="http://ftp.realtorofdubai.top">
+        <fileTransfer rootFolder="/api.realtorofdubai.top/bot" host="ftp.realtorofdubai.top" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

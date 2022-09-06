@@ -1,0 +1,22 @@
+{
+  "authors": [
+    {
+      "name": "Sardor Soyibjonov (CoderLast)",
+      "email": "coderlast@yandex.com"
+    }
+  ],
+  "config": {
+    "platform-check": false,
+    "allow-plugins": {
+      "kylekatarnls/update-helper": true
+    }
+  },
+  "autoload": {
+    "classmap": ["app", "app/output"]
+  },
+  "require": {
+    "ext-json": "*",
+    "thingengineer/mysqli-database-class": "dev-master",
+    "adhocore/jwt": "^1.1"
+  }
+}
