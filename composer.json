@@ -1,8 +1,9 @@
 {
   "authors": [
     {
-      "name": "Sardor Soyibjonov (CoderLast)",
-      "email": "coderlast@yandex.com"
+      "name": "coderlast",
+      "email": "coderlast@yandex.com",
+      "homepage": "https://github.io/coderlast/RestCLF"
     }
   ],
   "config": {
@@ -12,7 +13,10 @@
     }
   },
   "autoload": {
-    "classmap": ["app", "app/output"]
+    "classmap": [
+      "framework"
+    ],
+    "files": ["config/Database.php", "config/Site.php"]
   },
   "require": {
     "ext-json": "*",
